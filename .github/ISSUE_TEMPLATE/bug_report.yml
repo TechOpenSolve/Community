@@ -1,5 +1,5 @@
 name: Tech Community Issue
-description: Create a bug report to help TechOpenSolve's mission
+description: Create an issue report to help TechOpenSolve's mission
 labels: [👀 fact checking]
 body:
   - type: markdown
@@ -26,7 +26,7 @@ body:
 
 
         ### 5. What Counts as Contribution:
-        
+
     validations:
       required: true
   - type: dropdown
