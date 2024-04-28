@@ -1,6 +1,5 @@
-name: 🐛 Bug report
+name: Tech Community Issue
 description: Create a bug report to help TechOpenSolve's mission
-title: "Tech Community Issue: "
 labels: [👀 needs triage, 🐛 bug]
 body:
   - type: markdown
@@ -11,19 +10,6 @@ body:
     attributes:
       label: Describe the bug
       description: A clear and concise description of what the bug is.
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: Describe the real life issue
-      description: Provide details.
-      placeholder: |
-        1. What is the issue? 
-        2. Is is a single or recurring issue?
-        3. How long has it been happening for?
-        4. Has anyone involved taken actions to resolve it?
-        5. How many people have been affected?
-        6. Other details
     validations:
       required: true
   - type: dropdown
